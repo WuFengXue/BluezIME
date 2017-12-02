@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="cat_setup"
+        android:title="@string/configuration_header3">
+        <ListPreference
+            android:key="select_preset"
+            android:summary="@string/configuration_select_setup_long"
+            android:title="@string/configuration_select_setup_short" />
+        <EditTextPreference
+            android:key="rename_preset"
+            android:summary="@string/configuration_rename_setup_long"
+            android:title="@string/configuration_rename_setup_short" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_buttons"
+        android:title="@string/configuration_header1"></PreferenceCategory>
+    <PreferenceCategory
+        android:key="cat_clear"
+        android:title="@string/configuration_header2">
+        <Preference
+            android:key="reset_button"
+            android:summary="@string/configuration_reset_long"
+            android:title="@string/configuration_reset_short" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
