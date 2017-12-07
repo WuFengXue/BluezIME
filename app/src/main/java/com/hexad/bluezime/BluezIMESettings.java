@@ -36,7 +36,6 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.util.Log;
-import android.view.inputmethod.InputMethodManager;
 
 import java.lang.reflect.Constructor;
 import java.util.HashMap;

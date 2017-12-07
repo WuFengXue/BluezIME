@@ -240,6 +240,7 @@ public class WiimoteReader extends HIDReaderBase {
     private boolean m_updateRequestAccelerometer = m_useAccelerometer;
     //We keep a copy to prevent repeated allocations
     private Hashtable<Byte, Integer> m_reportCodes = null;
+
     public WiimoteReader(String address, String sessionId, Context context, boolean startnotification) throws Exception {
         super(address, sessionId, context, startnotification);
 
